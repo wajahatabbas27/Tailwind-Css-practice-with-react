@@ -1,0 +1,46 @@
+.card {
+  animation: appear 2s ease forwards;
+  /* transform: translateY(100px); */
+}
+
+.background {
+  animation: colourchanging 3s ease infinite;
+}
+
+/* Animations using key frames */
+
+@keyframes colourchanging {
+  0% {
+    background-color: rgba(0, 255, 0, 0.637);
+  }
+  20% {
+    background-color: rgb(102, 255, 0);
+  }
+  40% {
+    background-color: rgb(255, 30, 0);
+  }
+  60% {
+    background-color: rgb(16, 56, 143);
+  }
+  80% {
+    background-color: rgba(225, 0, 255, 0.651);
+  }
+  100% {
+    background-color: rgba(255, 0, 55, 0.356);
+  }
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(200px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
