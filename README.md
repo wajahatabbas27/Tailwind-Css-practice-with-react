@@ -1,4 +1,4 @@
-# MAking the china copy of the website using the Tailwind css
+# Making the china copy of the website using the Tailwind css
 
 - First creating the Navbar by my own logic using the tailwind css.
 
