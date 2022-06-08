@@ -36,8 +36,8 @@ const ScrollCards = () => {
       console.log("Hide Left Button");
 
       //setting the left to true as the condition passes
-      setLeft(true);
-      setRight(false); //right must be false when the left is true
+      setLeft(false);
+      setRight(true); //right must be false when the left is true
     } else if (
       e.target.scrollLeft + e.target.clientWidth ===
       e.target.scrollWidth
@@ -45,8 +45,8 @@ const ScrollCards = () => {
       console.log("Hide Right Button");
 
       //setting the right to true as the condition passes
-      setRight(true);
-      setLeft(false); // one value must be false so we can see only one button on the screen
+      setRight(false);
+      setLeft(true); // one value must be false so we can see only one button on the screen
     }
   };
 
