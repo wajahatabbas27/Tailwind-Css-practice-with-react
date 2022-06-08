@@ -11,6 +11,7 @@
 - flex-wrap se aik flex mein wrap krdega
 - min-h-screen - its the minimum height of the screen
 - overflow-x-scroll - its the horizontal scroll bar
+- gradient-color - gradient color can be applied to the background from the property using - bg-gradient-to-t from-blue-700 to-yello-300 via-red-600
 
 ### JIT (just in time)
 
