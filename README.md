@@ -10,6 +10,7 @@
 - Responsive ke liye hm hmesha ulti logic deinge by default jo bhi hai rhne deinge hm phr sm,md,lg ki logic deinge
 - flex-wrap se aik flex mein wrap krdega
 - min-h-screen - its the minimum height of the screen
+- overflow-x-scroll - its the horizontal scroll bar
 
 ### JIT (just in time)
 
